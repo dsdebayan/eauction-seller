@@ -18,7 +18,7 @@ import com.hackfse.eauction.seller.beans.ProductInfo;
 @CrossOrigin(origins={"http://localhost:3000", "http://localhost:8765"})
 @RestController
 @RequestMapping("/e-auction/api/v1/seller")
-//@ConditionalOnProperty(name = "seller.read.enabled", havingValue = "true")
+@ConditionalOnProperty(name = "seller.read.enabled", havingValue = "true")
 //@RequestMapping
 public class SellerQueryController {
 
